@@ -1,10 +1,18 @@
 # llm-paper-notes
-Notes from the [Latent Space paper club](https://www.latent.space/about#§components). Follow along or start your own!
+
+Resources from our AI Engineering Reading Group, originally forked from the [Latent Space paper club](https://www.latent.space/about#§components). While we maintain some of their excellent research paper selections, our focus extends to practical AI engineering materials and implementation details.
+
+Our goal is to bridge the gap between cutting-edge research and real-world applications in AI/ML systems.
 
 ---
 
-1. **[Attention Is All You Need](https://arxiv.org/abs/1706.03762):** Query, Key, and Value are all you need\* (\*Also position embeddings, multiple heads, feed-forward layers, skip-connections, etc.)
+1. **[Attention Is All You Need](https://arxiv.org/abs/1706.03762):** Query, Key, and Value are all you need (Also position embeddings, multiple heads, feed-forward layers, skip-connections, etc.)
 
+2. **[AI Engineering: Building Applications with Foundation Models](https://www.amazon.ca/dp/1098166302)** Chapter 3 - Evaluation Methods: Understanding evaluation metrics (entropy, perplexity), AI as judge, and comparative evaluation methodologies for foundation models.
+
+3. **[AI Engineering: Building Applications with Foundation Models](https://www.amazon.ca/dp/1098166302)** Chapter 6 - RAG: Deep dive into Retrieval-Augmented Generation architectures, retrieval algorithms and optimization, and extending RAG beyond text applications. ([Cookbook](https://colab.research.google.com/drive/1V6o8n_o8CXiBjBCXB9qu9N25iQg68x-Y))
+
+<!--
 2. **[GPT: Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf):** Decoder is all you need\* (\*Also, pre-training + finetuning)
 
 3. **[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805):** Encoder is all you need\*. Left-to-right language modeling is NOT all you need. (\*Also, pre-training + finetuning)
@@ -104,3 +112,4 @@ Notes from the [Latent Space paper club](https://www.latent.space/about#§compon
 51. **[Whisper: Robust Speech Recognition via Large-Scale Weak Supervision](https://arxiv.org/abs/2212.04356)**: 680k hrs of audio and multitask formulated as a sequence is all you need.
 
 52. **[Leveraging Large Language Models for NLG Evaluation: A Survey](https://arxiv.org/abs/2401.07103)**: [Slides](https://docs.google.com/presentation/d/17mbqFh8KFgn4SqRiKZmtjDn83N6d_jhqep8oPGbtB50/edit#slide=id.g2b89c4d23f6_0_329), [LS Discord Chat](https://discord.com/channels/822583790773862470/1197350122112168006/1207416409383108659) a survey paper of model and task eval techniques. Includes using Auto-J correlation instead of AlpacaEval which we liked.
+-->
